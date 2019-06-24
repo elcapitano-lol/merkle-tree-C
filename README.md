@@ -1,14 +1,14 @@
-Simple Merkle tree implementation
+#Simple Merkle tree implementation
 ==============
 
 
-1. Introduction
+##1. Introduction
 --------------
 
 This is a library to implement a simplified version of a Merkle tree. It also contains a test application that makes use of the library.
 
 
-2. Dependencies
+##2. Dependencies
 --------------
 
 User needs to install OpenSSL development libraries before trying to build the library.
@@ -18,7 +18,7 @@ User needs to install OpenSSL development libraries before trying to build the l
 	yum install openssl-libdevel
 
 
-3. Build
+##3. Build
 --------------
 
 To build, run make with the following targets: 
@@ -26,7 +26,7 @@ To build, run make with the following targets:
 - clean - cleans the build artifacts 
 
 
-4. Usage
+##4. Usage
 --------------
 
 The test application already contains a simple test case but you can execute more by changing the array of strings data[] and the variable size_tree, which is the amount of bottom nodes or leaves (for example size_tree=8 means there are 8 strings in total). The strings that are not specified in the data[] array will be filled with "0000".
@@ -41,7 +41,7 @@ This function will print out the root hash.
 This function releases all memory used up by the tree.
 
 
-5. Notes
+##5. Notes
 --------------
 
 During the development I used gdb for debugging.
