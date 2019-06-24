@@ -1,4 +1,4 @@
-#Simple Merkle tree implementation
+# Simple Merkle tree implementation
 ==============
 
 
